@@ -1,0 +1,41 @@
+# ═══════════════════════════════════════════════
+#  .gitignore — gest-insitu-landing (Vercel Site)
+#  ⚠️  NE JAMAIS PLACER DE FICHIERS .exe ICI
+# ═══════════════════════════════════════════════
+
+# Binaires et installateurs (retiré *.exe pour inclure le setup local)
+*.msi
+*.dmg
+*.deb
+*.rpm
+*.zip
+*.tar.gz
+*.7z
+*.AppImage
+
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (si jamais utilisé localement)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+out/
+build/
+
+# Variables d'environnement locales
+.env
+.env.local
